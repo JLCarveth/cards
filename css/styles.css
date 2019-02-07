@@ -17,14 +17,23 @@ body {
     overflow: hidden;
 }
 
+.dark {
+    background-color: #333333;
+    color: #ddd;
+}
+
 .card:hover {
     box-shadow: 0 10px 20px 0 rgba(0,0,0,0.5);
 }
 
 .card p {
     font-family: 'Noto Serif', serif;
-    padding: 2px 16px;
-    margin-bottom: 10px;
+    margin: 5px;
+}
+
+.card .info {
+    padding: 0px;
+    margin: 0px;
 }
 
 .card img {
@@ -36,7 +45,11 @@ body {
 .card p.title {
     font-family: 'Oswald', sans-serif;
     font-size: 20pt;
-    padding: 2px 16px;
+}
+
+.card p.sub {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14pt;
 }
 
 .bordered {
